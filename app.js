@@ -3,6 +3,8 @@ const app = express()
 const port = 3000
 // include handlebars
 const exphbs = require('express-handlebars')
+// include restaurant.json
+const restaurants = require('./restaurant.json')
 
 
 app.use(express.static('public'))
